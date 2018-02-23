@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*This class will hide elements on our page*/
+.hidden
+{
+	display: none;
+}
+
+.clickEffect{
+	box-shadow: 0 0 16px ##3D4FFF;
+}
+
+.hoverGear{
+	transition: all .8s ease-in-out;
+	width: 150px;
+	height: 150px;
+}
+
+.hoverGear:hover{
+	transform: rotate(180deg);
+}
+
+.hoverMap{
+	transition: all .3s ease-in-out;
+	margin: 0 auto;
+}
+
+.hoverMap:hover{
+	fill: red;
+	stroke: red;
+	transform: translate(0px, -25px);
+
+}
+
+div{
+	margin: 0 auto;
+	padding: 30px;
+}
+
+svg{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Fjalla One', Arial, sans-serif;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+#siteContainer{
+	width: 500px;
+	margin: 0 auto;
+	border-left: solid 1px #333;
+	border-right: solid 1px #333;
+	height: 1500px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#Dot1{
+	transition: all .3s ease-in;
+}
+#Dot2{
+	transition: all .3s ease-in;
+}
+#Dot3{
+	transition: all .3s ease-in;
+}
+
+#SpeechIcon:hover #Dot1{
+	transform: translate(0px, -40px);
+}
+#SpeechIcon:hover #Dot2{
+	transform: translate(0px, -50px);
+}
+#SpeechIcon:hover #Dot3{
+	transform: translate(0px, -30px);
+}
